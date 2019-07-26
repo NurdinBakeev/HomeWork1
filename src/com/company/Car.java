@@ -5,9 +5,9 @@ public class Car {
     private SteeringWheel steeringWheel;
     private String carName;
 
-    public void Car(){
+    public void Car(Wheel wheel, SteeringWheel steeringWheel, String carName){
        wheel.getSizeWheel();
-       steeringWheel = getSteeringWheel();
+       this.steeringWheel = steeringWheel;
        carName = "Мазяка";
     }
 
